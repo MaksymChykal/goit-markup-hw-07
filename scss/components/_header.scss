@@ -18,6 +18,46 @@
     margin: 0px;
     margin-right: 93px;
 }
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1,19;
+  margin-left: 215px;
+  }
+.icon-phone {
+  margin-right: 10px;
+  fill: #757575;
+  margin-left: 30px;
+}
+a.number {
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+a.number:hover .icon-phone,
+a.number:focus .icon-phone
+{
+  fill: var(--accent-color);
+}
+a.number:hover,
+a.number:focus {
+  color: var(--accent-color);
+}
+.icon-mail {
+  margin-right: 10px;
+  fill: currentColor;
+}
 
 .menu {
     display: flex;
@@ -60,3 +100,7 @@
   .menu-list:hover::after, .menu-list.active::after  {
     opacity: 1;
   }
+  .site-nav-list a:hover,
+.site-nav-list a:hover:focus {
+color: black;
+}
