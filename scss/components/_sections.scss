@@ -378,8 +378,8 @@ margin: 0 auto;
     transition: 250ms var(--timing-function);
     
 }
-.list-port:hover,
-.list-port:focus {
+.list-port:hover::focus
+ {
     color: var(--primary-bcg-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -437,15 +437,15 @@ cursor: pointer;
     margin-bottom: 0;
   }
 
-.offers-link:hover,
-.offers-link:focus
+.offers-link:hover::focus
+
 {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.offers-item:hover,
-.offers-item:focus
+.offers-item:hover::focus
+
 {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);

@@ -50,8 +50,8 @@ a.number:focus .icon-phone
 {
   fill: var(--accent-color);
 }
-a.number:hover,
-a.number:focus {
+a.number:hover::focus
+ {
   color: var(--accent-color);
 }
 .icon-mail {

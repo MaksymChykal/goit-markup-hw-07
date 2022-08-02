@@ -3,8 +3,8 @@ a.mail-link {
     color:  #757575;
     position: relative;
   }
-  a.mail-link:hover,
-  a.mail-link:focus {
+  a.mail-link:hover::focus
+   {
     color: #2196F3;
   }
   .social-item .link {
@@ -20,13 +20,13 @@ a.mail-link {
     cursor: pointer;
     transition:  250ms var(--timing-function);
 }
-.social-item .link:hover,
-.social-item .link:focus {
+.social-item .link:hover::focus
+ {
     background-color: var(--accent-color);
     color: var(--primary-bcg-color);
 }
-.offers-link:hover,
-.offers-link:focus
+.offers-link:hover::focus
+
 {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -45,8 +45,8 @@ a.mail-link {
     color: var (var(--primary-bcg-color));
     transition: 250ms var(--timing-function);
 }
-.footer-sociales .link:hover,
-.footer-sociales .link:focus {
+.footer-sociales .link:hover::focus
+ {
 background-color: var(--accent-color);
 color:var(--primary-bcg-color);
 }
@@ -59,8 +59,8 @@ color:var(--primary-bcg-color);
     justify-content: center;
     align-items: center;
 }
-.customers-list .link:hover,
-.customers-list .link:focus                         
+.customers-list .link:hover::focus
+                        
 {
     border-color: var(--accent-color);
     fill:var(--accent-color);
