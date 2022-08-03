@@ -5,10 +5,7 @@ a.mail-link {
     &:hover { color: #2196F3;}
     &:focus { color: #2196F3;}
   }
-//   a.mail-link:hover:focus
-//    {
-//     color: #2196F3;
-//   }
+
   .social-item .link {
     display: flex;
     height: 44px;
@@ -26,11 +23,7 @@ a.mail-link {
         &:focus {background-color: var(--accent-color);
             color: var(--primary-bcg-color);}
 }
-// .social-item .link:hover::focus
-//  {
-//     background-color: var(--accent-color);
-//     color: var(--primary-bcg-color);
-// }
+
 .offers-link:hover,
 .offers-link:focus
 
@@ -56,11 +49,7 @@ a.mail-link {
         &:focus {background-color: var(--accent-color);
             color:var(--primary-bcg-color);}
 }
-// .footer-sociales .link:hover:focus
-//  {
-// background-color: var(--accent-color);
-// color:var(--primary-bcg-color);
-// }
+
 .customers-item .link {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -74,13 +63,7 @@ a.mail-link {
          &:focus {border-color: var(--accent-color);
          fill:var(--accent-color);}
 }
-// .customers-list .link:hover,
-// .customers-list .link:focus
-                        
-// {
-//     border-color: var(--accent-color);
-//     fill:var(--accent-color);
-// }
+
 .form-agreement-link {
     color: var(--accent-color);
     text-decoration: underline;

@@ -68,10 +68,7 @@ color: rgba(255, 255, 255, 0.6);;
 &:hover { color: var(--primary-bcg-color);}
 &:focus { color: var(--primary-bcg-color);}
 }
-// .email-footer:hover:focus
-// {
-//     color: var(--primary-bcg-color);
-// }
+
 .number-footer {
     width: 231px;
 height: 21px;
@@ -84,10 +81,7 @@ color: rgba(255, 255, 255, 0.6);
 &:hover {color: var(--primary-bcg-color)}
 &:focus {color: var(--primary-bcg-color)}
 }
-// .number-footer:hover:focus
-// {
-//     color: var(--primary-bcg-color);
-// }
+
 .address{
     font-family: 'Roboto';
     font-style: normal;
@@ -99,7 +93,3 @@ color: rgba(255, 255, 255, 0.6);
     &:hover {color: var(--primary-bcg-color)}
     &:focus {color: var(--primary-bcg-color)}
 }
-// .address:hover:focus
-// {
-//     color: var(--primary-bcg-color);
-// }

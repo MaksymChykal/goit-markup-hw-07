@@ -15,10 +15,9 @@
     letter-spacing: 0.06em;
     padding: 10px 32px; 
     margin-top: 30px; 
+    &:hover {color:var(--title-text-color)}
 }
-.main-button:hover {    
-    color:var(--title-text-color);
-}
+
 .all-button {
     color: #fff;
     font-family: 'Roboto';
@@ -69,10 +68,9 @@
     top: 712px;
     color: #FFFFFF;
     cursor: pointer;
+    &:hover {color: #000;}
 }
-.sub-button:hover {
-    color: #000;
-}
+
 .sub-btn {
     display: flex;
     align-items: center;
@@ -98,9 +96,6 @@
     cursor: pointer;
     background-color: inherit;
     transition: color 250ms var(--timing-function);
-}
-.modal-button:hover,
-.modal-button:focus
- {
-    color: var(--accent-color);
+    &:hover {color: var(--accent-color)}
+    &:focus {color: var(--accent-color)}
 }
