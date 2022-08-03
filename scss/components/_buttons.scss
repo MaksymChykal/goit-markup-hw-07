@@ -99,7 +99,8 @@
     background-color: inherit;
     transition: color 250ms var(--timing-function);
 }
-.modal-button:hover::focus
+.modal-button:hover,
+.modal-button:focus
  {
     color: var(--accent-color);
 }

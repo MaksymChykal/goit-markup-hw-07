@@ -65,12 +65,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);;
+&:hover { color: var(--primary-bcg-color);}
+&:focus { color: var(--primary-bcg-color);}
 }
-.email-footer:hover::focus
-// .email-footer:focus
-{
-    color: var(--primary-bcg-color);
-}
+// .email-footer:hover:focus
+// {
+//     color: var(--primary-bcg-color);
+// }
 .number-footer {
     width: 231px;
 height: 21px;
@@ -80,12 +81,13 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
+&:hover {color: var(--primary-bcg-color)}
+&:focus {color: var(--primary-bcg-color)}
 }
-.number-footer:hover::focus
-// .number-footer:focus 
-{
-    color: var(--primary-bcg-color);
-}
+// .number-footer:hover:focus
+// {
+//     color: var(--primary-bcg-color);
+// }
 .address{
     font-family: 'Roboto';
     font-style: normal;
@@ -94,9 +96,10 @@ color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    &:hover {color: var(--primary-bcg-color)}
+    &:focus {color: var(--primary-bcg-color)}
 }
-.address:hover::focus
-// .address:focus
-{
-    color: var(--primary-bcg-color);
-}
+// .address:hover:focus
+// {
+//     color: var(--primary-bcg-color);
+// }

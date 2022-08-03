@@ -43,6 +43,7 @@ a.number {
   display: flex;
   align-items: center;
   position: relative;
+
 }
 
 a.number:hover .icon-phone,
@@ -50,7 +51,8 @@ a.number:focus .icon-phone
 {
   fill: var(--accent-color);
 }
-a.number:hover::focus
+a.number:hover,
+a.number:focus
  {
   color: var(--accent-color);
 }
@@ -78,13 +80,16 @@ a.number:hover::focus
   .menu-list {
   color: #212121;
     position: relative;
+    & :hover {color: var(--accent-color)};
+    & :focus {color: var(--accent-color)};
+    & :active {color: var(--accent-color)};
   }
-  .menu-list:hover,
-  .menu-list:focus,
-  .menu-list.active {
-    color: var(--accent-color);
-    fill: var(--accent-color);
-  }
+  // .menu-list:hover,
+  // .menu-list:focus,
+  // .menu-list.active {
+  //   color: var(--accent-color);
+  //   fill: var(--accent-color);
+  // }
   .menu-list::after {
     content: '';
     display: block;
@@ -103,4 +108,18 @@ a.number:hover::focus
   .site-nav-list a:hover,
 .site-nav-list a:hover:focus {
 color: black;
+}
+
+@media (max-width: 480px) {
+  .page-header .container{
+    width: 480px;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .page-header .nav-second-list{
+    display: none;
+  }
 }
