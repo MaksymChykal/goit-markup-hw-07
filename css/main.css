@@ -370,7 +370,7 @@ a.mail-link:focus {
   color: var(--accent-color);
 }
 
-.footer-sociales .link {
+.footer-sociales .staff-sociales__item .link {
   display: block;
   background-position: center;
   padding: 12px;
@@ -381,11 +381,11 @@ a.mail-link:focus {
   -webkit-transition: 250ms var(--timing-function);
   transition: 250ms var(--timing-function);
 }
-.footer-sociales .link:hover {
+.footer-sociales .staff-sociales__item .link:hover {
   background-color: var(--accent-color);
   color: var(--primary-bcg-color);
 }
-.footer-sociales .link:focus {
+.footer-sociales .staff-sociales__item .link:focus {
   background-color: var(--accent-color);
   color: var(--primary-bcg-color);
 }
@@ -668,11 +668,11 @@ p.features-list {
   margin-bottom: 0;
 }
 
-.features-item-list {
+.features-item__list {
   width: 270px;
 }
 
-.features-item-list::before {
+.features-item__list::before {
   display: block;
   content: "";
   height: 120px;
@@ -969,7 +969,7 @@ li.customers-item a:focus .company {
   margin-left: auto;
 }
 
-.nav-second-list-item {
+.nav-second-list__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1093,23 +1093,23 @@ li.customers-item a:focus .company {
   padding-left: 0;
 }
 
-.offers-item {
+.offers__item {
   margin: 0;
   padding: 0;
   max-width: 370px;
   background: #FFFFFF;
   cursor: pointer;
 }
-.offers-item:hover {
+.offers__item:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.offers-item:focus {
+.offers__item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.offers-item:nth-last-child(-n+3) {
+.offers__item:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
 
@@ -1368,13 +1368,13 @@ li.customers-item a:focus .company {
   margin-right: 70px;
 }
 
-.footer-sociales .social-item {
+.footer-sociales .staff-sociales__item {
   margin-left: 10px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
-.footer-sociales .social-item:first-child {
+.footer-sociales .staff-sociales__item:first-child {
   margin-left: 0;
 }
 

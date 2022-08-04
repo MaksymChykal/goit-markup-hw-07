@@ -84,12 +84,7 @@ a.number:focus
     & :focus {color: var(--accent-color)};
     & :active {color: var(--accent-color)};
   }
-  // .menu-list:hover,
-  // .menu-list:focus,
-  // .menu-list.active {
-  //   color: var(--accent-color);
-  //   fill: var(--accent-color);
-  // }
+  
   .menu-list::after {
     content: '';
     display: block;
