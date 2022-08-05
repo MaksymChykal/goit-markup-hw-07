@@ -1001,14 +1001,14 @@ li.customers-item a:focus .company {
   margin-bottom: 0;
 }
 
-.nav-port-item {
+.nav-port__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 9px;
 }
 
-.nav-port-item:last-child {
+.nav-port__item:last-child {
   margin-right: 0;
 }
 
