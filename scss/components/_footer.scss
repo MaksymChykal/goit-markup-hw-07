@@ -15,7 +15,7 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-.adress-footer-list {
+.adress-footer__list {
     display: block;
     flex-direction: column;
     margin-top: 9px;
@@ -24,7 +24,7 @@
 .adress-footer-list:first-child {
     margin-top:  0px;
 }
-.footer-sociales-title {
+.footer-sociales__title {
     margin-bottom: 20px;
     color: var(--primary-bcg-color);
     text-transform: uppercase;

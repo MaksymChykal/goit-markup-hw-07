@@ -224,7 +224,7 @@ a {
   color: var(--accent-color);
 }
 
-.title {
+.section-1__title {
   display: block;
   width: 696px;
   font-weight: 900;
@@ -632,7 +632,7 @@ a.number:focus {
   padding-top: 94px;
 }
 
-p.features-list {
+.features-flex__features-list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -644,7 +644,7 @@ p.features-list {
   margin-bottom: 0;
 }
 
-.features-list-2 {
+.features-flex-list-2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -655,7 +655,7 @@ p.features-list {
   margin-bottom: 0;
 }
 
-.features-item {
+.features-flex__features-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -668,11 +668,11 @@ p.features-list {
   margin-bottom: 0;
 }
 
-.features-item__list {
+.features-flex__list {
   width: 270px;
 }
 
-.features-item__list::before {
+.features-flex__list::before {
   display: block;
   content: "";
   height: 120px;
@@ -702,7 +702,7 @@ p.features-list {
   border-radius: 4px;
 }
 
-.features-item :last-child {
+.features-flex-item :last-child {
   margin-right: 0;
 }
 
@@ -748,7 +748,7 @@ p.features-list {
   margin-bottom: 0px;
 }
 
-.we-do {
+.section-work__we-do {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -795,7 +795,7 @@ p.features-list {
   margin-right: 30px;
 }
 
-.img-do {
+.section-work__img-do {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -810,7 +810,7 @@ p.features-list {
   margin-bottom: 0;
 }
 
-.text-img {
+.section-work__text-img {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -818,7 +818,7 @@ p.features-list {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.text {
+.section-work__text {
   position: absolute;
   color: #FFFFFF;
   width: 370px;
@@ -1385,7 +1385,7 @@ li.customers-item a:focus .company {
   margin-bottom: 0;
 }
 
-.adress-footer-list {
+.adress-footer__list {
   display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1398,7 +1398,7 @@ li.customers-item a:focus .company {
   margin-top: 0px;
 }
 
-.footer-sociales-title {
+.footer-sociales__title {
   margin-bottom: 20px;
   color: var(--primary-bcg-color);
   text-transform: uppercase;
