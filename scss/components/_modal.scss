@@ -44,7 +44,7 @@
     margin-bottom: 4px;
 
 }
-.form-name {
+.form__name {
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -56,7 +56,7 @@
     font-family: inherit;
     
 }
-.form-lines {
+.form__lines {
     position: relative;
     width: 100%;
     margin-bottom: 10px;
@@ -135,7 +135,7 @@
     transform: translate(-50%,-50%);
     transition: 250ms var(--timing-function);
 }
-.modal-icon {
+.modal__icon {
     
     width: 18px;
     height: 18px;

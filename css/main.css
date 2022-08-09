@@ -132,7 +132,7 @@ a {
   border: none;
 }
 
-.subscribe-button {
+.subscribe__button {
   /* display: flex; */
   min-width: 200px;
   height: 50px;
@@ -155,7 +155,7 @@ a {
   border-radius: 4px;
 }
 
-.sub-button {
+.sub__button {
   background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -172,7 +172,7 @@ a {
   color: #FFFFFF;
   cursor: pointer;
 }
-.sub-button:hover {
+.sub__button:hover {
   color: #000;
 }
 
@@ -190,7 +190,7 @@ a {
   margin-top: 30px;
 }
 
-.modal-button {
+.modal__button {
   position: absolute;
   border-radius: 50%;
   /* padding: 8px 10px; */
@@ -217,10 +217,10 @@ a {
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.modal-button:hover {
+.modal__button:hover {
   color: var(--accent-color);
 }
-.modal-button:focus {
+.modal__button:focus {
   color: var(--accent-color);
 }
 
@@ -293,7 +293,7 @@ a {
   margin-bottom: 50px;
 }
 
-.subscribe-title {
+.subscribe__title {
   width: 219px;
   height: 16px;
   left: 815px;
@@ -308,7 +308,7 @@ a {
   color: #FFFFFF;
 }
 
-.form-title {
+.form__title {
   display: inline-block;
   padding-bottom: 12px;
   font-size: 20px;
@@ -938,7 +938,7 @@ li.customers-item a:focus .company {
   padding-left: 93px;
 }
 
-.subscribe-input {
+.subscribe__input {
   min-width: 358px;
   padding: 15px 16px;
   font-size: 16px;
@@ -1216,7 +1216,7 @@ li.customers-item a:focus .company {
   margin-bottom: 4px;
 }
 
-.form-name {
+.form__name {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -1228,7 +1228,7 @@ li.customers-item a:focus .company {
   font-family: inherit;
 }
 
-.form-lines {
+.form__lines {
   position: relative;
   width: 100%;
   margin-bottom: 10px;
@@ -1358,7 +1358,7 @@ li.customers-item a:focus .company {
   transition: 250ms var(--timing-function);
 }
 
-.modal-icon {
+.modal__icon {
   width: 18px;
   height: 18px;
   fill: currentColor;
