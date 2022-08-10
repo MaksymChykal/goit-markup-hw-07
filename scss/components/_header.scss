@@ -77,12 +77,13 @@ a.number:focus
   .menu__item:last-child {
     margin-right: 0;
   }
+ 
   .menu-list {
   color: #212121;
     position: relative;
-    & :hover {color: var(--accent-color)};
-    & :focus {color: var(--accent-color)};
-    & :active {color: var(--accent-color)};
+    &:hover {color: var(--accent-color)};
+    &:focus {color: var(--accent-color)};
+    &:active {color: var(--accent-color)};
   }
   
   .menu-list::after {

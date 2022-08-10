@@ -55,7 +55,7 @@ padding: 94px 0;
     
 }
 
-.features-flex__features-list {
+.features-list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -66,7 +66,7 @@ padding: 94px 0;
     text-align: left;
     margin-bottom: 0;
 }
-.features-flex-list-2 {
+.features-list-2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -229,6 +229,12 @@ border-radius: 4px;
 
 li.social-item {
     box-shadow: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+li.social-item:last-child {
+    margin-right: 0;
 }
 .sociales .icon-social {
     width: 20px;
@@ -271,6 +277,7 @@ li.social-item {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+
 }
 .portfolio-section 
 {
@@ -414,6 +421,7 @@ margin: 0 auto;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.15;
+    letter-spacing: 0.03em;
     color: var(--primary-bcg-color);
 }
 .offers {

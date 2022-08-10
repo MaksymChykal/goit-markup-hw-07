@@ -520,13 +520,13 @@ a.number:focus {
   color: #212121;
   position: relative;
 }
-.menu-list :hover {
+.menu-list:hover {
   color: var(--accent-color);
 }
-.menu-list :focus {
+.menu-list:focus {
   color: var(--accent-color);
 }
-.menu-list :active {
+.menu-list:active {
   color: var(--accent-color);
 }
 
@@ -632,7 +632,7 @@ a.number:focus {
   padding-top: 94px;
 }
 
-.features-flex__features-list {
+.features-list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -644,7 +644,7 @@ a.number:focus {
   margin-bottom: 0;
 }
 
-.features-flex-list-2 {
+.features-list-2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -848,6 +848,13 @@ a.number:focus {
 li.social-item {
   -webkit-box-shadow: none;
           box-shadow: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+li.social-item:last-child {
+  margin-right: 0;
 }
 
 .sociales .icon-social {
@@ -1076,6 +1083,7 @@ li.customers-item a:focus .company {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.15;
+  letter-spacing: 0.03em;
   color: var(--primary-bcg-color);
 }
 
@@ -1368,13 +1376,13 @@ li.customers-item a:focus .company {
   margin-right: 70px;
 }
 
-.footer-sociales .staff-sociales__item {
+.footer-sociales .staff-sociales-item {
   margin-left: 10px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
-.footer-sociales .staff-sociales__item:first-child {
+.footer-sociales .staff-sociales-item:first-child {
   margin-left: 0;
 }
 
