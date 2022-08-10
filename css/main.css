@@ -872,10 +872,6 @@ li.social-item:last-child {
   margin-right: 30;
 }
 
-.sociales .social-item {
-  margin-left: 10px;
-}
-
 .staff-position {
   font-family: "Roboto";
   font-style: normal;
@@ -1082,7 +1078,7 @@ li.customers-item a:focus .company {
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.15;
+  line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--primary-bcg-color);
 }
@@ -1194,7 +1190,7 @@ li.customers-item a:focus .company {
   transition: fill 250ms var(--timing-function);
 }
 
-.form-lines:focus-within > .icon-input {
+.form__lines:focus-within > .icon-input {
   fill: var(--accent-color);
 }
 
@@ -1259,7 +1255,7 @@ li.customers-item a:focus .company {
   border: 1px solid var(--accent-color);
 }
 
-.form-input-textarea {
+.form-textarea {
   display: block;
   width: 100%;
   min-height: 120px;
@@ -1274,7 +1270,7 @@ li.customers-item a:focus .company {
   resize: none;
 }
 
-.form-input-textarea::-webkit-input-placeholder {
+.form-textarea::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -1282,7 +1278,7 @@ li.customers-item a:focus .company {
   letter-spacing: 0.01em;
 }
 
-.form-input-textarea::-moz-placeholder {
+.form-textarea::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -1290,7 +1286,7 @@ li.customers-item a:focus .company {
   letter-spacing: 0.01em;
 }
 
-.form-input-textarea:-ms-input-placeholder {
+.form-textarea:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -1298,7 +1294,7 @@ li.customers-item a:focus .company {
   letter-spacing: 0.01em;
 }
 
-.form-input-textarea::-ms-input-placeholder {
+.form-textarea::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -1306,7 +1302,7 @@ li.customers-item a:focus .company {
   letter-spacing: 0.01em;
 }
 
-.form-input-textarea::placeholder {
+.form-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -1329,6 +1325,7 @@ li.customers-item a:focus .company {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+  margin-top: 20px;
 }
 
 .checkbox-icon {
